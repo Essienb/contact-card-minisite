@@ -1,0 +1,95 @@
+ *{
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 14px;
+} 
+
+
+/* .container{
+    background-color: #EEEEEE;
+    position: relative;
+    width: 1440px;
+    height: 720px;
+    overflow-y: scroll;
+} */
+/* .name-title {
+    position: static;
+    width: 304px;
+    height: 51px;
+    left: 0px;
+    top: 136px;
+    
+} */
+.card{
+    background: conic-gradient(from 169.32deg at 107.61% 54.63%, 
+    rgba(254, 170, 228, 0) 0deg, #FDA9E7 18.03deg, 
+    rgba(254, 170, 229, 0) 104.03deg, rgba(254, 170, 228, 0) 360deg), 
+    radial-gradient(38.17% 86.77% at 10.46% 79.54%,
+     #FFEEC3 0%, rgba(255, 238, 195, 0) 100%), 
+     radial-gradient(61.14% 73.94% at 44.57% -39.19%, 
+     #9ED2FF 0%, rgba(158, 210, 255, 0) 100%);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    border-radius: 24px;
+} 
+ .card-body{
+    border-radius: 32px;
+    width: 200px;
+   height: 250px;
+   left: 150px;
+   top: 48px;
+   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 51.1542px 51.419px 
+   rgba(0, 0, 0, 0.0182814), 0px 31.2614px 32.7222px rgba(0, 0, 0, 0.0145485), 
+   0px 19.7px 20.341px rgba(0, 0, 0, 0.0131802), 0px 12.1574px 11.8781px
+    rgba(0, 0, 0, 0.012699), 0px 6.89112px 6.09643px 
+   rgba(0, 0, 0, 0.0121579), 0px 3.01109px 2.28593px rgba(0, 0, 0, 0.0102347);
+
+   flex-direction: column;
+  
+   align-items: center;
+   padding: 0px;
+   background: #FFFFFF;
+   margin: auto;
+} 
+.progress{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 5px 0px;
+
+    position: static;
+    width: 200px;
+    height: 5px;
+    left: 0px;
+    top: 5px;
+}
+/* 
+#card-header{
+    background: conic-gradient(from 169.32deg at 107.61% 54.63%, 
+    rgba(254, 170, 228, 0) 0deg, #FDA9E7 18.03deg,
+     rgba(254, 170, 229, 0) 104.03deg, rgba(254, 170, 228, 0) 360deg),
+      radial-gradient(38.17% 86.77% at 10.46% 79.54%, #FFEEC3 0%, 
+      rgba(255, 238, 195, 0) 100%), radial-gradient(61.14% 73.94% at 44.57% -39.19%,
+      #9ED2FF 0%, rgba(158, 210, 255, 0) 100%), #FFFFFF;
+
+  
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0px 32px; */
+ 
+/* }
+.card-body{
+    position: static;
+    width: 368px;
+    height: 440px;
+    left: 0px;
+    top: 259px;
+
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    
+} */
